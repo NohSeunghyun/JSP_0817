@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- 한글처리가 제대로 되기위해서는 클라이언트(브라우저) 문자 처리방식과 서버에서 문자처리방식이 같아야한다.
+톰캣 서버(기본:UTF-8)로 전송되는 한글 파라미터값이 제대로 처리되기 위해 
+인코딩 방식을 UTF-8로 지정 -->
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="hangul" method="post">
+	한글이름 : <input type="text" name="name"/><br>
+	<input type="submit" value="확인"/>
+	</form>
+</body>
+</html>
